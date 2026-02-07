@@ -4,28 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap" rel="stylesheet">
     <style>
-     
-        p{
+        .box{
+            border: 2px solid green;
+            width: 30%;
+        }
+        .parent{
+            border: 1px solid red;
+            background-color: antiquewhite;
+        }
+        .child{
+            border: 1px solid blue;
+            background-color: aqua;
+            width: 50%;
+        }
+        .view{
+            border: 1px solid black;
+            background-color: rgb(121, 89, 181);
+            height: 100vh;
+            width: 50%;
+        }
+        .container{
+            font-size: 20px;
             
-            font-style: italic;
-            .rubik-storm-regular {
-            font-family: "Rubik Storm", system-ui;
-            font-weight: 400;
-            font-style: normal;
-}
-
-            line-height: 30px;
+        }
+        .box1{
+            font-size: 3em
+        }
+        .para{
+            
+            border: 1px solid black;
+            font-size: 2rem;
         }
     </style>
 </head>
 <body>
-    <h2>welcome to mywebsite</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti nesciunt aspernatur ipsa quidem sint tenetur numquam eligendi modi nemo?</p>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptates aut amet ea porro. Dolores tempore voluptatem incidunt aspernatur ducimus nulla qui eligendi, cum deleniti animi a provident itaque ab explicabo ut corporis, in porro dolore repellendus. Eveniet, dolor nemo.</P>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, optio iusto! Placeat quae, at perspiciatis inventore quisquam eaque. Doloremque reiciendis ab alias delectus exercitationem eligendi dignissimos earum ipsam sint quae aperiam dolor tempora, recusandae, inventore quibusdam! Fugit iure voluptatem ipsa et, alias placeat quisquam explicabo dignissimos cupiditate harum. Quos assumenda magnam deleniti vel ratione impedit ut recusandae voluptate obcaecati a.</p>
+    <div class="box">
+        <h1>This is heading</h1>
+        
+    </div>
+    <div class="parent">
+        <div class="child">
+            <h1>This is heading</h1>
+
+        </div>
+    </div>
+    <div class="view">
+        welcome to my website
+    </div>
+    <div class="container">
+        <div class="box1">
+            welcome to my website
+        </div>
+
+    </div>
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus suscipit incidunt magnam excepturi sint eveniet odio recusandae ullam delectus vel et deleniti eligendi, fugit reiciendis atque quasi ratione nemo minus!</p>
+    </div>
 </body>
 </html>
